@@ -11,7 +11,6 @@ import { PlainTextPacket } from "@Network/Packets/Duplex/PlainText";
 import { PacketListener } from "@Network/PacketListener";
 import { NetworkMember } from "@Network/NetworkMember";
 import { WorkerThreadsChannel } from "./Channel";
-import { inspect } from "util";
 
 export class WorkerThreadsWorker extends NetworkMember {
   constructor() {
